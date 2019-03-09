@@ -5,6 +5,7 @@ from selenium.common.exceptions import ElementNotInteractableException
 from time import sleep
 import sys
 if sys.version_info[0] < 3:
+    print("python 2")
     from utils.compat import input
 
 

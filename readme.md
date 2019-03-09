@@ -27,6 +27,10 @@ pip install -r requirements.txt
 * That's it. Now we can use some tools!
 #
 #### Usage
+If using python 2, and you get an import error when you try to run a
+script, **navigate to the facebook_admin directory** on the commandline. In
+Windows, type `set PYTHONPATH=.`. On Linux, type `export PYTHONPATH=.`
+
  Currently supplied scripts:
  * Post Approval - open terminal or cmd window. Navigate to the
  postapproval directory and type:
